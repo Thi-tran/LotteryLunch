@@ -1,0 +1,62 @@
+.navcolor {
+  background-color: #ffdd59;
+}
+
+.sticktop {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+nav img{
+  max-width: 200px;
+  max-height: 100px;
+}
+
+nav a font{
+  font-size: 100%;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+
+
+.container-fluid{
+  border-radius: 10px;
+}
+
+.icon-logo {
+  height: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+
+.nav-text:link {
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-text {
+  color: #FFF;
+  font-size: 150%;
+  padding: 2px; 
+  justify-content: center;
+}
+
+.nav-text:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: none;
+}
+
+.nav-link {
+  color: #FFF;
+}

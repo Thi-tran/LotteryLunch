@@ -1,0 +1,116 @@
+@import './css/nav-bar';
+@import './css/home';
+@import './css/component/button';
+@import './css/about.scss';
+@import './css/component/variables';
+@import './css/component/composition';
+@import './css/contact';
+@import './css/component/feature-box.scss';
+@import './css/signup';
+@import './css/component/hint';
+
+@import './css/component/icon';
+@import './css/footer';
+@import './css/admin';
+/* color set (according to colour theory)
+Yellow: FFDD59
+Orange: FF9700
+Blue: 40E2FF
+BlueGreen: 14CCB6
+Dark yellow: 99863D
+*/
+
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto","Playfair-Display";
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #687b83;
+}
+
+code {
+  font-family: "Lato", sans-serif;
+}
+
+
+
+
+.paddingcol{
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 1s;
+}
+
+.paddingcol:hover{
+  transform: scale(1.3);
+  cursor: pointer;
+  z-index: 2;
+}
+
+
+.padding{
+  padding-top: 10px;
+}
+
+
+.basket {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+.basket.hide {
+  opacity: 0;
+  pointer-events:none;
+}
+
+.rowcontent{
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.buttonrow{
+}
+
+
+h3{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 360px) {
+  .carousel-inner img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .fullview{
+    height: 50vh;
+    width: 100vw;
+  }
+  .carousel-inner h1{
+    background-color: #3FEEE6;
+    font-size: 100%;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 7px;
+  }
+
+}
+
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+

@@ -1,0 +1,23 @@
+#Contact{
+    height: 90vh;
+    background-image: linear-gradient(
+        to left bottom, 
+        rgba(64, 226, 255, 0.678), 
+        rgba(255, 222, 89, 0.801)), 
+        url("https://images.unsplash.com/photo-1455734729978-db1ae4f687fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    clip-path: polygon(0 15vh, 100% 0, 100% 75vh, 0 100%);
+    padding: 0 10rem;
+}
+
+#Contact .logo {
+    position: relative;
+
+
+    top: 51%;
+    left: 52%;
+    transform: translate(-50%, -50%);  
+}
+

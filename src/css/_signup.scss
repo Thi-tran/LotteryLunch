@@ -1,0 +1,45 @@
+@import './component/hint';
+
+.formcontent{
+    width: 100%;
+  }
+
+#Signup {
+    margin-bottom: 30px;
+}
+
+#Signup h1{
+    font-weight: 500;
+    padding: 7px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #FFDD59, #FF9700);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
+}
+
+.rowcontentsignup{
+    padding-bottom: 50px;
+}
+
+#Signup .email{
+    padding-top: 8px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.width {
+    width: 70%;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+input:hover {
+
+}

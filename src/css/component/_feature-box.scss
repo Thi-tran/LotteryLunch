@@ -1,0 +1,36 @@
+.feature-box {
+
+    background-color: rgba(#fff, .8);
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(#000, .15);
+    width: 80%;
+    min-height: 350px;
+    transition: all .2s;
+    &__icon {
+        font-size: 6rem;
+        margin-bottom: .5rem;
+        background-image: linear-gradient(to right, #FFDD59, #FF9700);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    &__text{
+
+    }
+
+    &:hover{
+        transform: scale(1.05); 
+        box-shadow: 0 2.5rem 4rem rgba(#000, .5);
+    }
+}
+
+.feature-box:hover {
+
+}
+
+.feature-box h3 {
+    margin-top: .5rem;
+}
