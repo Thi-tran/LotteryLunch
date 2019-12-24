@@ -1,5 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+LotteryLunch Project for The ShortCut Helsinki. The project aims to help connect people for business opportunities. 
 
 ### `npm start`
 
